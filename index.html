@@ -9,6 +9,7 @@
   integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
   crossorigin="anonymous"
 />
+<link rel="shortcut icon" href="./image/navbar-brand.webp" type="image/x-icon">
   <link rel="stylesheet" href="style/index.css">
 
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
@@ -16,13 +17,53 @@
 </head>
 <body>
   <nav class="navigation bg-grey">
-    <div class="navbar-brand"> Logo</div>
-    <ul class="nav-link">
-      <li class="links"><a href="#" class="dark">Home</a></li>
-      <li class="links"> <a href="#"  class="dark">About</a></li>
-      <li class="links"><a href="#"  class="dark">Tickets</a></li>
-      <li class="links"> <a href="#"  class="dark">Gallery</a></li>
-    </ul>
+    <div class="bg-dark">
+      <div class="container">
+        <div class="row">
+          <nav class="col navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="index.html">
+              <img
+                src="image/logo.webp"
+                width="50"
+                height="50"
+                alt="Shot-it Logo"
+                class="shot-it"
+              />
+             Shot-it
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarContent" class="collapse navbar-collapse">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="About.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#Ticket">Ticket</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Gallery.html">Gallery</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+   
   </nav>
   <main class="main-wrapper">
  <!-- Hero section -->
@@ -31,26 +72,34 @@
     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
     <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="https://cdn.pixabay.com/photo/2018/02/06/22/43/painting-3135875__340.jpg" class="d-block w-100" alt="Carousel image">
+      <img src="https://cdn.pixabay.com/photo/2015/12/27/21/11/paradise-1110498__340.jpg" class="d-block w-100" alt="Carousel image">
       <div class="carousel-caption d-none d-md-block">
         <h5>First slide label</h5>
         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="https://cdn.pixabay.com/photo/2015/02/18/07/35/photographer-640419__340.jpg " class="d-block w-100" alt="Carousel image">
+      <img src="https://cdn.pixabay.com/photo/2016/11/29/08/36/architecture-1868473__340.jpg" class="d-block w-100" alt="Carousel image">
       <div class="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="https://cdn.pixabay.com/photo/2016/11/18/22/30/architecture-1837175__340.jpg " class="d-block w-100" alt="Carousel image">
+      <img src="https://cdn.pixabay.com/photo/2014/09/22/00/56/photographer-455747__340.jpg" class="d-block w-100" alt="Carousel image">
       <div class="carousel-caption d-none d-md-block">
         <h5>Third slide label</h5>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </div> 
+    <div class="carousel-item">
+      <img src="https://cdn.pixabay.com/photo/2016/11/29/08/55/architecture-1868547__340.jpg" class="d-block w-100" alt="Carousel image">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Fourth slide label</h5>
         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
       </div>
     </div>

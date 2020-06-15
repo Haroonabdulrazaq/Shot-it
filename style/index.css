@@ -33,44 +33,16 @@ Grey-   #D3D3D3
   color: #D3D3D3;
 }
 
-.navigation{
-  display: flex;
+.shot-it{
+  border-radius: 50%;
 }
 
-a{
-  text-decoration: none;
-}
-
-.logo{
-  background: url("../image/logo.webp");
-  background-size: contain;
-
-}
-
-.nav-link{
-  height: 8vh;
-  width: 100%;
+.navbar-nav{
   display: flex;
   justify-content: flex-end;
-  align-items: center;
 }
 
-.nav-link .links{
-  display: inline-block;
-}
-
-.links > a{
-  text-decoration: none;
-  font-size: 1.3rem;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.links {
-  margin-right: 5%;
-}
-
-img{
+ .carousel img{
   height: 80vh;
 }
 
