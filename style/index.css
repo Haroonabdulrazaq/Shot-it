@@ -34,7 +34,17 @@ Grey-   #D3D3D3
 }
 
 .navigation{
-  display: block;
+  display: flex;
+}
+
+a{
+  text-decoration: none;
+}
+
+.logo{
+  background: url("../image/logo.webp");
+  background-size: contain;
+
 }
 
 .nav-link{
@@ -51,20 +61,21 @@ Grey-   #D3D3D3
 
 .links > a{
   text-decoration: none;
-  font-size: 1rem;
-  font-weight: bold;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .links {
   margin-right: 5%;
 }
 
-.hero{
-height: 80vh;
-background: url(" https://cdn.pixabay.com/photo/2016/11/18/22/30/architecture-1837175__340.jpg ") no-repeat;
-background-size: cover;
-background-position: center;
+img{
+  height: 80vh;
 }
+
+  
+  
 
 /* https://cdn.pixabay.com/photo/2016/11/18/22/30/architecture-1837175__340.jpg */
 /* https://cdn.pixabay.com/photo/2015/02/18/07/35/photographer-640419__340.jpg */
