@@ -1,0 +1,71 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body{
+  /* font-family: 'Lato', sans-serif; */
+  font-size:62.5%;
+}
+
+/*Dark- #272A31
+Orange- #EC5242
+Grey-   #D3D3D3
+ */
+ /* COLOR and BACKGROUND */
+ .bg-dark{
+  background: #272A31;
+ }
+ .dark{
+  color: #272A31;
+}
+.bg-orange{
+  background: #EC5242 ;
+ }
+ .orange{
+  color:  #EC5242;
+}
+.bg-grey{
+  background: #D3D3D3;
+ }
+ .grey{
+  color: #D3D3D3;
+}
+
+.navigation{
+  display: block;
+}
+
+.nav-link{
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-link .links{
+  display: inline-block;
+}
+
+.links > a{
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.links {
+  margin-right: 5%;
+}
+
+.hero{
+height: 80vh;
+background: url(" https://cdn.pixabay.com/photo/2016/11/18/22/30/architecture-1837175__340.jpg ") no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+/* https://cdn.pixabay.com/photo/2016/11/18/22/30/architecture-1837175__340.jpg */
+/* https://cdn.pixabay.com/photo/2015/02/18/07/35/photographer-640419__340.jpg */
+/* https://cdn.pixabay.com/photo/2018/02/06/22/43/painting-3135875__340.jpg */
