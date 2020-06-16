@@ -131,6 +131,10 @@ Grey-   #D3D3D3
 }
 
 .author-name{
+  padding-right: 1rem;
+}
+
+.author-name{
   font-weight: 700;
 }
 
@@ -206,7 +210,7 @@ label + label{
 }
 
 input[type=email], input[type=password] {
-  background: #f1f1f1;
+  background: white;
 }
 
 .submit{
@@ -290,11 +294,11 @@ input[type=email], input[type=password] {
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     margin: 1rem auto;
-    background:red;
+    height:auto;
   }
+
   .author{
     margin-bottom:0;
-    background: aqua;
   }
 
  }
@@ -308,7 +312,19 @@ input[type=email], input[type=password] {
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns:1fr;
     grid-gap: 0rem;
-    background:red;
+  }
+ 
+.author-name{
+  padding-right: 4rem;
+}
+
+  .grid-form{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr 1fr;
+    height: auto;
+    width: 98%;
+    margin: 0 auto;
   }
 
  }
