@@ -64,18 +64,16 @@ Grey-   #D3D3D3
 }
 
 .photographer{
-  height: 70vh;
+  height:98vh;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap:1rem;
-  width: 98%;
-  margin:3rem auto;
   padding: 1rem;
 }
  
 .author{
-  position: relative;
+  position: relative; 
   border-radius: 5px;
   background: #fff;
   box-shadow: 5px 10px 22px rgba(3,3,3,0.1);
@@ -83,7 +81,12 @@ Grey-   #D3D3D3
   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   text-align: center;
   padding: 1rem;
+  display:grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+  height:80%;
 }
+
 .author:after{
   position: absolute;
   top: 0;
@@ -94,7 +97,7 @@ Grey-   #D3D3D3
   z-index: -1;
   box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.3);
   opacity: 0;
-   transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .author:hover{
@@ -109,10 +112,9 @@ Grey-   #D3D3D3
   line-height: 2rem;
 }
 
-
 .author-topic{
   font-weight: 700;
-  margin-bottom: 5%;
+  padding: 0 1rem;
   font-size: 1.5rem;
   width: 100%;
   text-align: center;
@@ -120,11 +122,12 @@ Grey-   #D3D3D3
 
 .name-img{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  height: 150px; 
   position: absolute;
   bottom: 1rem;
-  right: 1em;
+  right: 1em;      
 }
 
 .author-name{
@@ -154,6 +157,8 @@ Grey-   #D3D3D3
   background: url("https://cdn.pixabay.com/photo/2015/11/14/04/04/business-1042706__340.jpg")no-repeat;
   background-size: cover;
 }
+
+/* Form Style */
 
 .form-container{
   background:#D3D3D3 ;
@@ -274,4 +279,36 @@ input[type=email], input[type=password] {
  .soc-icon i:hover{
    cursor: pointer;
    opacity:1;
+ }
+
+ /* Responsiveness */
+ 
+ @media only screen and (max-width:768px){
+
+  .photographer{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem auto;
+    background:red;
+  }
+  .author{
+    margin-bottom:0;
+    background: aqua;
+  }
+
+ }
+
+  
+ @media only screen and (max-width:512px){
+
+  .photographer{
+    height: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns:1fr;
+    grid-gap: 0rem;
+    background:red;
+  }
+
  }
