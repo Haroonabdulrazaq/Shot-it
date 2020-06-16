@@ -12,6 +12,11 @@
   background: #D3D3D3;
 }
 
+h1,h2,h3,h4,h5{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+
 /*Dark- #272A31
 Orange- #EC5242
 Grey-   #D3D3D3
@@ -67,7 +72,6 @@ Grey-   #D3D3D3
   width: 98%;
   margin:3rem auto;
   padding: 1rem;
- 
 }
  
 .author{
@@ -128,7 +132,6 @@ Grey-   #D3D3D3
 }
 
 .author-img{
-  background: chocolate;
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -152,4 +155,72 @@ Grey-   #D3D3D3
   background-size: cover;
 }
 
+.form-container{
+  background:#D3D3D3 ;
+  height: 80vh;
+}
+
+ .join:hover{
+ color: #272A31;
+ cursor:pointer;
+}
+
+.grid-form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  height: auto;
+  width: 98%;
+  margin: 0 auto;
+}
+
+.sign-up{
+  padding: 0 1rem;
+}
+
+.signup-form{
+  width:80%;
+  height:70%;
+  margin: 0 auto;
+  padding : 1rem;
+  
+}
+
+.signup-form .input{
+  display: block;
+  height: 3rem;
+}
+
+ .signup-form label{
+  text-align: left;
+  font-size: 1.2rem;
+  width: 100%;
+}  
+
+label + label{
+  padding-bottom: 0.5rem;
+}
+
+input[type=email], input[type=password] {
+  background: #f1f1f1;
+}
+
+.submit{
+  color: white;
+  font-size: 1rem;
+  width:100%;
+  font-weight: 700;
+  opacity:1;
+}
+
+.submit:hover{
+  color: white;
+  opacity:0.8;
+}
+
+.signincheckbox{
+  margin-bottom: 6rem;
+}
+
+ 
 
