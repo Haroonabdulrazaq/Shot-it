@@ -157,7 +157,7 @@ Grey-   #D3D3D3
 
 .form-container{
   background:#D3D3D3 ;
-  height: 80vh;
+  height: auto;
 }
 
  .join:hover{
@@ -183,7 +183,6 @@ Grey-   #D3D3D3
   height:70%;
   margin: 0 auto;
   padding : 1rem;
-  
 }
 
 .signup-form .input{
@@ -222,5 +221,57 @@ input[type=email], input[type=password] {
   margin-bottom: 6rem;
 }
 
- 
+ /* Footer */
 
+ .footer{
+  height:50vh;
+  background: #272A31;
+  display:grid;
+  grid-template-columns:1fr;
+  grid-template-rows:1fr 1fr;
+  padding:0 7rem;
+ }
+
+ .footer-grid{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 1px solid #EC5242;
+ }
+
+ .footer-navigation .links {
+  list-style-type: none;
+  padding:0.5em 0;
+ }
+
+ .links a {
+  text-decoration: none;
+  color:white;
+  font-weight: 600;
+  opacity: 0.5;
+}
+
+ .links a:hover {
+  text-decoration: underline;
+  opacity:1;
+  font-weight: 600;
+}
+
+ .soc-icon{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .soc-icon i{
+  padding: 1rem;
+  font-size: 2rem;
+  color: white;
+  opacity:0.5;
+ }
+
+ .soc-icon i:hover{
+   cursor: pointer;
+   opacity:1;
+ }
