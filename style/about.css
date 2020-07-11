@@ -1,0 +1,23 @@
+ body{
+    font-family: 'Poppins';
+    background: #D3D3D3;
+ }
+main{
+    width: 100%;
+}  
+
+.about-us{
+    width: 50%;
+    height: auto;
+    margin:0 auto;
+    font-size: 1.3em;
+    padding: 1.5em;
+}
+
+.location-date{
+    padding: 1em;
+}
+
+.past-event{
+    
+}
