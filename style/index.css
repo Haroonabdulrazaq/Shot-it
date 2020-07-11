@@ -8,12 +8,11 @@
 .body{
   font-family: 'Poppins';
   font-size:62.5%;
-  color:#D3D3D3 ;
   background: #D3D3D3;
 }
 
 h1,h2,h3,h4,h5{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins';
   font-weight: 700;
 }
 

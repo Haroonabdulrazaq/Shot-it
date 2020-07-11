@@ -1,23 +1,63 @@
- body{
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+body{
     font-family: 'Poppins';
     background: #D3D3D3;
+    color: #5c6063;
  }
-main{
+
+.main{
     width: 100%;
 }  
 
 .about-us{
-    width: 50%;
-    height: auto;
+    width: 70%;
+    height: auto;  
     margin:0 auto;
     font-size: 1.3em;
     padding: 1.5em;
 }
 
 .location-date{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 1em;
 }
 
+.date{
+    padding-left: 1em;
+}
+
+.location{
+    padding-left: 1em;
+} 
+
 .past-event{
-    
+    background: white;
+}
+
+.event{
+    width: 70%;
+    margin: 0 auto;
+    padding: 1em;
+    display: flex;
+}
+
+.info{
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+    padding: 1em;
+}
+
+.event-img{
+    background: url(https://images.pexels.com/photos/976866/pexels-photo-976866.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)no-repeat;
+    background-size: cover;
+    height: 15em;
+    width: 20em;
 }
